@@ -1,0 +1,126 @@
+body {
+    background: rgb(48,51,55);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20em;
+    margin: 0 auto;/* centra il contenuto orizontalmente */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+}
+
+.main {
+    border-radius: 1em;
+    background: #393e46; 
+    margin: auto; /* centra il contenuto orizontalmente */
+}
+
+.row {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;    
+}
+
+.row div {
+    border-radius: 10%;
+    margin: 0.5em;
+    padding: 1.5em;
+    flex: 1;
+    background: #0092ca;
+}
+
+#display {
+    text-align: center;
+}
+
+#clear {
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+#footer img {
+    filter: invert(100%); 
+    height: 1em; /* Altezza relativa al testo (1em) */
+    margin-right: 2px; /* Aggiungi margine a destra per separare l'immagine dal testo */
+    margin-left: 2px; 
+}
+
+
+#display{
+    border-radius: 2%;
+}
+
+    /*SETTING MENU ORIZZONTALE */
+
+#horizontal-menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+#clear{
+    background-color: rgb(1, 255, 149);
+}
+
+#clear_all{
+    background-color: rgb(1, 255, 149);
+}
+
+#uguale{
+    background-color: rgb(1, 255, 149);
+}
+
+#addizione{
+    background-color: rgb(1, 255, 149);
+}
+
+#sottrazione{
+    background-color: rgb(1, 255, 149);
+}
+
+#moltiplicazione{
+    background-color: rgb(1, 255, 149);
+}
+
+#divisione{
+    background-color: rgb(1, 255, 149);
+}
+
+#punto{
+    background-color: rgb(1, 255, 149);
+}
+
+#radice{
+    background-color: rgb(1, 255, 149);
+}
